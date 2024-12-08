@@ -438,20 +438,20 @@ input[type=number] {
     background: linear-gradient(180deg, #FFFFFF 0%, #F8F9FA 100%);
 }
 
-.courses-section .owl-carousel .item .card {
+.courses-section .card {
     border: 0;
     overflow: hidden;
     /* box-shadow: 0px 8px 16px 0px #0000000A; */
     box-shadow: 0px 5px 21px -14px rgba(0, 0, 0, 0.14);
 }
 
-.courses-section .owl-carousel .item .card .courses-img {
+.courses-section .card .courses-img {
     position: relative;
     overflow: hidden;
     height: 22rem;
 }
 
-.courses-section .owl-carousel .item .card .courses-img::before {
+.courses-section .card .courses-img::before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -462,7 +462,7 @@ input[type=number] {
     z-index: 1;
 }
 
-.courses-section .owl-carousel .item .card .courses-img .courses-title {
+.courses-section .card .courses-img .courses-title {
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
     position: absolute;
     bottom: 0;
@@ -472,20 +472,20 @@ input[type=number] {
     z-index: 1;
 }
 
-.courses-section .owl-carousel .item .card .courses-img .courses-title .card-title {
+.courses-section .card .courses-img .courses-title .card-title {
     font-weight: 600;
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item:first-of-type {
+.courses-section .card .card-body .list-group .list-group-item:first-of-type {
     padding-top: 0;
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item:last-of-type {
+.courses-section .card .card-body .list-group .list-group-item:last-of-type {
     padding-bottom: 0;
     justify-content: center;
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item {
+.courses-section .card .card-body .list-group .list-group-item {
     padding-left: 0;
     padding-right: 0;
     display: flex;
@@ -495,24 +495,24 @@ input[type=number] {
     position: unset;
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item .card-text {
+.courses-section .card .card-body .list-group .list-group-item .card-text {
     color: var(--bs-secondary);
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item .card-text,
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item .card-title {
+.courses-section .card .card-body .list-group .list-group-item .card-text,
+.courses-section .card .card-body .list-group .list-group-item .card-title {
     margin-bottom: 0;
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item .card-title span {
+.courses-section .card .card-body .list-group .list-group-item .card-title span {
     color: var(--bs-success);
 }
 
-.courses-section .owl-carousel .item .card .card-body .list-group .list-group-item .card-title del {
+.courses-section .card .card-body .list-group .list-group-item .card-title del {
     color: var(--bs-danger);
 }
 
-.courses-section .owl-carousel .item .card:hover {
+.courses-section .card:hover {
     box-shadow: 0px 5px 39px -14px rgba(0, 0, 0, 0.26);
 }
 
@@ -1252,9 +1252,11 @@ input[type=number] {
 .yoga-syllabus ul {
     color: var(--bs-secondary);
 }
-.yoga-syllabus ul{
+
+.yoga-syllabus ul {
     line-height: 2;
 }
+
 .yoga-syllabus span {
     font-weight: 500;
     color: var(--bs-dark);
