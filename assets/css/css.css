@@ -1036,10 +1036,12 @@ input[type=number] {
     font-weight: 500;
     text-wrap: nowrap;
 }
+
 /* guru-cards */
-.guru-cards{
+.guru-cards {
     padding: 3rem 0;
 }
+
 .guru-cards img {
     margin-bottom: 1rem;
     width: 100%;
@@ -1166,7 +1168,94 @@ input[type=number] {
 .mission-vision h5 {
     color: var(--bs-primary);
 }
+
 /* yoga-content */
-.yoga-content{
+.yoga-content {
     padding: 3rem 0;
+}
+
+.yoga-content .course-detail {
+    background-color: var(--bs-primary);
+    padding: 1.50rem;
+}
+
+.yoga-content .course-detail .yoga-title {
+    background-color: rgba(255, 255, 255, 20%);
+    text-align: center;
+    padding: 1rem;
+    color: var(--bs-white);
+}
+
+.yoga-content .course-detail .list-group .list-group-item {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    color: var(--bs-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yoga-content .course-detail .yoga-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: var(--bs-white);
+}
+
+.yoga-content .course-detail .yoga-price p,
+.yoga-content .course-detail .yoga-price h5 {
+    margin-bottom: 0;
+}
+
+.yoga-content .course-detail .btn {
+    width: 100%;
+    text-transform: capitalize;
+}
+
+/* yoga-date */
+.yoga-date {
+    background-color: var(--bs-light);
+    padding: 3rem 0;
+}
+
+.yoga-date .heading-section {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.yoga-date .table thead tr th {
+    /* font-weight: 500; */
+    text-align: center;
+    text-transform: capitalize;
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+/* yogic-food-accommodatio */
+.yogic-food-accommodatio {
+    margin: 2rem 0;
+}
+
+.yogic-food-accommodatio .yogic-food ul {
+    color: var(--bs-secondary);
+}
+
+/* yoga-syllabus */
+.yoga-syllabus {
+    background-color: var(--bs-light);
+    padding: 2rem 0;
+}
+
+.yoga-syllabus p,
+.yoga-syllabus ul {
+    color: var(--bs-secondary);
+}
+.yoga-syllabus ul{
+    line-height: 2;
+}
+.yoga-syllabus span {
+    font-weight: 500;
+    color: var(--bs-dark);
 }
