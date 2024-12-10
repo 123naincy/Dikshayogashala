@@ -36,7 +36,7 @@ document.getElementById("header").innerHTML = `  <div class="container">
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="200-hour-yoga-teacher-training-in-rishikesh.html">200-Hour Yoga Teacher Training</a></li>
-                                    <li><a class="dropdown-item" href="300-hour-yoga-teacher-training-course.html">300 Hour Yoga Teacher</a></li>
+                                    <li><a class="dropdown-item" href="300-hour-yoga-teacher-training-course.html">300 Hour Yoga Teacher Training</a></li>
                                     <li><a class="dropdown-item" href="500-hour-yoga-teacher-training-course.html">500-Hour Yoga Teacher Training</a></li>
                                 </ul>
                             </li>

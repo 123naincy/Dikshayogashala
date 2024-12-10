@@ -164,6 +164,10 @@ input[type=number] {
     z-index: 100;
 }
 
+.header-slider .carousel .carousel-inner {
+    height: 80vh;
+}
+
 .header-slider .carousel .carousel-inner::before {
     content: '';
     position: absolute;
@@ -1093,6 +1097,10 @@ input[type=number] {
     background: var(--bs-light);
 }
 
+.courses-section .heading-section h6 {
+    font-style: italic;
+}
+
 /* 
 .courses-section .heading-section {
     margin-bottom: 2rem;
@@ -1317,4 +1325,31 @@ input[type=number] {
 .accommodation .owl-carousel .item img {
     height: 300px;
     object-fit: cover;
+}
+
+/* ancient-roots */
+.ancient-roots {
+    padding: 2rem 0;
+    background-color: var(--bs-light);
+}
+
+.ancient-roots .heading-section {
+    margin-bottom: 1rem;
+}
+
+.ancient-roots ul {
+    margin-bottom: 0;
+    color: var(--bs-secondary);
+    line-height: 2;
+}
+
+.ancient-roots .card .card-body {
+    padding: 2rem;
+}
+
+.ancient-roots .card {
+    border: 0;
+    box-shadow: var(--bs-box-shadow-sm);
+    border-radius: 0;
+    overflow: hidden;
 }
