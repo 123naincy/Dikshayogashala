@@ -45,6 +45,9 @@ document.getElementById("footer").innerHTML = `  <div class="container">
                             <li>
                                 <a href="contact-us.html"><i class='bx bx-chevron-right'></i> Contact Us</a>
                             </li>
+                            <li>
+                                <a href="yoga-centers.html"><i class='bx bx-chevron-right'></i> our center</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
