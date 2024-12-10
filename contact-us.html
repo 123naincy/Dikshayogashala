@@ -44,7 +44,7 @@
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact</li>
                 </ol>
             </nav>
@@ -161,21 +161,63 @@
                     </div>
                 </div>
                 <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 text-lg-end">
-                    <a href="#" class="btn btn-primary-two">View More <i class="bx bx-right-arrow-alt"></i></a>
+                    <a href="yoga-centers.html" class="btn btn-primary-two">View More <i class="bx bx-right-arrow-alt"></i></a>
                 </div>
             </div>
             <div class="owl-carousel">
                 <div class="item">
                     <div class="card">
                         <div class="center-img">
-                            <img src="assets/img/inida-center.png" alt="Delhi">
+                            <img src="assets/img/risikesh.png" alt="rishikesh">
                             <div class="location-tag">
-                                <span class="badge text-bg-primary">delhi</span>
+                                <span class="badge text-bg-primary">Rishikesh</span>
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Yoga Retreat in Bali</h5>
-                            <a href="#" class="stretched-link">Read more <i class="bx bx-right-arrow-alt"></i></a>
+                            <h5 class="card-title">Yoga Center in Rishikesh</h5>
+                            <a href="yoga-centers.html" class="stretched-link">Read more <i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="center-img">
+                            <img src="assets/img/nepal.png" alt="rishikesh">
+                            <div class="location-tag">
+                                <span class="badge text-bg-primary">Nepal</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Center in Nepal</h5>
+                            <a href="yoga-centers.html" class="stretched-link">Read more <i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="center-img">
+                            <img src="assets/img/mysore.png" alt="rishikesh">
+                            <div class="location-tag">
+                                <span class="badge text-bg-primary">mysore</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Center in mysore</h5>
+                            <a href="yoga-centers.html" class="stretched-link">Read more <i class="bx bx-right-arrow-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="center-img">
+                            <img src="assets/img/kerala.png" alt="rishikesh">
+                            <div class="location-tag">
+                                <span class="badge text-bg-primary">kerala</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Yoga Center in kerala</h5>
+                            <a href="yoga-centers.html" class="stretched-link">Read more <i class="bx bx-right-arrow-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -220,6 +262,27 @@
                 }
             });
         });
+    </script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
     </script>
 
 </html>

@@ -10,7 +10,8 @@
     .certificate-image ul {
         justify-content: start;
     }
-    .owl-carousel .owl-nav{
+
+    .owl-carousel .owl-nav {
         display: none !important;
     }
 }
@@ -34,13 +35,19 @@
     .header-slider .carousel .carousel-inner .carousel-item .carousel-caption .btn {
         font-size: 14px;
     }
+    .hero-header{
+        padding: 6rem 0;
+    }
+    .our-gallery .gallery{
+        column-count: 1;
+    }
+    .guru-cards img{
+        max-height: 100%;
+    }
 }
 
 @media screen and (max-width:425px) {
     .hero-info .card .card-body button {
         width: 100%;
-    }
-    .hero-header{
-        height: 5rem 0;
     }
 }

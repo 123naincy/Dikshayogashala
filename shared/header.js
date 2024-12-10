@@ -20,13 +20,14 @@ document.getElementById("header").innerHTML = `  <div class="container">
                                     about
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="about-diksha.html">about us</a></li>
+                                    <li><a class="dropdown-item" href="yoga-teachers.html">yoga ⁠teachers</a></li>
+                                    <li><a class="dropdown-item" href="food-and-accommodation.html">food and Accommodation</a></li>
+                                    <li><a class="dropdown-item" href="yoga-activities.html">yoga activities</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Yoga history</a>
+                                <a class="nav-link" href="yoga-history.html">Yoga history</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -34,19 +35,13 @@ document.getElementById("header").innerHTML = `  <div class="container">
                                     Yoga teacher training
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="200-hour-yoga-teacher-training-in-rishikesh.html">200-Hour Yoga Teacher Training</a></li>
+                                    <li><a class="dropdown-item" href="300-hour-yoga-teacher-training-course.html">300 Hour Yoga Teacher</a></li>
+                                    <li><a class="dropdown-item" href="500-hour-yoga-teacher-training-course.html">500-Hour Yoga Teacher Training</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="yoga-activities.html">yoga activities</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blogs</a>
+                                <a class="nav-link" href="gallery.html">gallery</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="contact-us.html">contact us</a>
