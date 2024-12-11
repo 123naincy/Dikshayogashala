@@ -11,7 +11,9 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
-
+.fw-500{
+    font-weight: 500;
+}
 .btn-primary-two i {
     font-size: 24px;
     font-weight: 500;
@@ -103,7 +105,8 @@ input[type=number] {
     font-weight: 700;
 }
 
-.heading-section .heading-description {
+.heading-section .heading-description,
+.heading-section p {
     color: var(--bs-secondary);
 }
 
@@ -1075,6 +1078,10 @@ input[type=number] {
 }
 
 /* guru */
+.guru-cards hr{
+    border-color: var(--bs-primary);
+    opacity: 1;
+}
 .guru-cards {
     margin: 2rem 0;
 }
@@ -1254,6 +1261,7 @@ input[type=number] {
 .yoga-content ul,
 .yoga-content ol{
     color: var(--bs-secondary);
+    line-height: 2;
 }
 /* yogic-food-accommodatio */
 .yogic-food-accommodatio {
